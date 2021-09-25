@@ -1,0 +1,39 @@
+h1 {
+    background-color:bisque;
+    text-align: center;
+    padding: 20px;
+  }
+body {
+    background-image: url("bg2.jpg");
+    }
+h2 , h3, h4{
+    background-color:bisque;
+  }
+  
+div {
+    background-color:mintcream;
+  }
+  
+p {
+    background-color:aliceblue;
+  }
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table ;
+    clear: both;
+    width: 50%;
+  }
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
