@@ -7,6 +7,7 @@ text-align: center;
 h1{ 
 color: #fff; 
 } 
+
 .ketengah{ 
 margin: 10px auto; 
 width: 1150px; 
@@ -36,6 +37,7 @@ nilai 40 adalah nilai radius banyangan
 nilai 10 adalah nilai ketebalan bayangan 
 dan yang terakhir adalah menentukan warna bayangan 
 */ 
+
 .kotak1{ 
 background: white;
 width: 300px; 
@@ -51,6 +53,7 @@ nilai 10 pertama adalah nilai radius banyangan
 nilai 10 kedua adalah nilai ketebalan bayangan 
 dan yang terakhir adalah menentukan warna bayangan 
 */ 
+
 .kotak2{ 
     background: white; 
     width: 300px; 

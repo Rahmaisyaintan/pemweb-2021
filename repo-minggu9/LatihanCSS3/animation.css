@@ -7,6 +7,7 @@
     h1{ 
     width: 550px; 
     } 
+
     .kotak{ 
     background: blue; 
     width: 200px; 
@@ -14,6 +15,7 @@
     animation-name: animasi_kotak; 
     animation-duration: 2s; 
     } 
+    
     @keyframes animasi_kotak{ 
     from{ background: blue;} 
     to{background: red;} 
